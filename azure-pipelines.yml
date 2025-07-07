@@ -1,7 +1,7 @@
 trigger: none
 
 pool:
-  name: Default  # Replace with your local agent pool
+  name: Local_Windows_PC  # Replace with your local agent pool
 
 steps:
 - task: PowerShell@2
