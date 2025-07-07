@@ -1,0 +1,10 @@
+trigger: none
+
+pool:
+  name: Default  # Replace with your local agent pool
+
+steps:
+- task: PowerShell@2
+  inputs:
+    targetType: 'filePath'
+    filePath: '$(Build.SourcesDirectory)\write-hello.ps1'
