@@ -7,5 +7,5 @@ steps:
 - task: PowerShell@2
   inputs:
     targetType: 'filePath'
-    filePath: '$(Build.SourcesDirectory)/write-hello.ps1'
+    filePath: '"C:\Users\z0038b6b\source\repos\TestPipeline\TestPipeline_LWin_RLinux.ps1"'
 
